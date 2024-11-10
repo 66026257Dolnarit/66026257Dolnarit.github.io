@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolnarit Resume</title>
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 300px 1fr;
+        }
+        .left-column {
+            background: #f8f8f8;
+            padding: 20px;
+        }
+        .right-column {
+            padding: 20px;
+        }
+        .header {
+            background: #8e44ad;
+            color: white;
+            padding: 30px;
+            grid-column: 1 / -1;
+        }
+        .profile-section {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .name {
+            font-size: 2em;
+            margin: 0;
+        }
+        .title {
+            color: #ddd;
+            margin: 5px 0;
+        }
+        .contact-info {
+            background: #9b59b6;
+            color: white;
+            padding: 15px;
+            grid-column: 1 / -1;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.9em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            background: #8e44ad;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 0 15px 0;
+        }
+        .skill-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .skill-icon {
+            width: 40px;
+            height: 40px;
+        }
+        .star-rating {
+            color: #f1c40f;
+        }
+        .education-item {
+            margin-bottom: 15px;
+        }
+        .about-text {
+            line-height: 1.6;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-section">
+                <img src="https://github.com/66026257Dolnarit/66026257Dolnarit.github.io/blob/main/1.png" alt="Profile" class="profile-img">
+                <div>
+                    <h1 class="name">Dolnarit Saikhambor</h1>
+                    <p class="title">COMPUTER SCIENCE STUDENT</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <span class="contact-item">📱 063-932-3481</span>
+                <span class="contact-item">✉️ beamdolnarit06@gmail.com</span>
+                <span class="contact-item">🔗 github.com/66026257Dolnarit</span>
+                <span class="contact-item">📍 50 หมู่ 5 ต.ริมสีม่วง อ.เขาค้อ จ.เพชรบูรณ์</span>
+            </div>
+        </div>
+
+        <div class="left-column">
+            <div class="section">
+                <h2 class="section-title">การศึกษา</h2>
+                <div class="education-item">
+                    <h3>มัธยมตอนต้นและมัธยมตอนปลาย</h3>
+                    <p>โรงเรียนวิทยานุกูลนารี</p>
+                    <p>2560-2566</p>
+                </div>
+                <div class="education-item">
+                    <h3>วิทยาการคอมพิวเตอร์</h3>
+                    <p>มหาวิทยาลัยพะเยา</p>
+                    <p>2566-ปัจจุบัน</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">ข้อมูลส่วนตัว</h2>
+                <p>ชื่อ-สกุล: นายดลณฤทธิ์ สายคำบ่อ</p>
+                <p>ชื่อเล่น: บีม</p>
+                <p>วันเกิด: 1 กุมภาพันธ์ 2548</p>
+                <p>อายุ: 19 ปี</p>
+                <p>สัญชาติ: ไทย</p>
+                <p>เชื้อชาติ: ไทย</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">ทักษะและความสามารถ</h2>
+                <ul>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                    <li>Adobe Illustrator</li>
+                    <li>VS CODE</li>
+                    <li>Communication skills</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">ภาษา</h2>
+                <ul>
+                    <li>ไทย</li>
+                    <li>อังกฤษ</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <h2 class="section-title">เกี่ยวกับฉัน</h2>
+                <p class="about-text">
+                    ผมเป็นคนที่ชอบการเรียนรู้สิ่งใหม่ๆอยู่เสมอ เพราะเชื่อว่าการมีความรู้ช่วยให้เติบโตและพัฒนาตนเองได้ 
+                    นอกจากนี้ยังชอบหาความรู้รอบตัวและติดตามข่าวสารเพื่อเข้าใจโลกที่เปลี่ยนไป เป็นคนพูดคุยเก่ง เข้าสังคมง่าย 
+                    และสร้างความสัมพันธ์ที่ดีกับคนรอบข้างได้ดี ความสามารถในการปรับตัวช่วยให้ผมรับมือกับสถานการณ์และความท้าทายต่างๆ
+                    ได้อย่างมีประสิทธิภาพรวมถึงมีทัศนคติที่ดีในการทำงานร่วมกับผู้อื่น
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">PROGRAMMING LANGUAGE</h2>
+                <div class="skill-item">
+                    <img src="https://github.com/66026257Dolnarit/66026257Dolnarit.github.io/blob/main/2.png" alt="Python" class="skill-icon">
+                    <div>
+                        <div>Python</div>
+                        <div class="star-rating">★★★☆☆</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="https://github.com/66026257Dolnarit/66026257Dolnarit.github.io/blob/main/3.pngผ" alt="Java" class="skill-icon">
+                    <div>
+                        <div>JAVA</div>
+                        <div class="star-rating">★★☆☆☆</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <img src="https://github.com/66026257Dolnarit/66026257Dolnarit.github.io/blob/main/4.png" alt="C" class="skill-icon">
+                    <div>
+                        <div>C</div>
+                        <div class="star-rating">★☆☆☆☆</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">DATABASE SKILLS</h2>
+                <div class="skill-item">
+                    <img src="https://github.com/66026257Dolnarit/66026257Dolnarit.github.io/blob/main/5.png" alt="SQL" class="skill-icon">
+                    <div>
+                        <div>SQL</div>
+                        <div class="star-rating">★★☆☆☆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
